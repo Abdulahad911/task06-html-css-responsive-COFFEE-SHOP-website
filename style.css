@@ -34,4 +34,43 @@ color: rgb(75,38,20);
 background-color: #ffffff6b;
 }
 
+.logo1 img{
+    mix-blend-mode:multiply;
+height: 100px;
+}
+@media screen and (max-width: 1000px) {
+    .logo img{
+        width: 70px;
+        height: 70px;
+        padding-left: 20px;
+        } 
+        .anchor-tags a{
+           
+            border-radius: 10px;
+            padding: 10px 10px;
+           
+            }
+            .anchor-tags{
+                margin-top: 20px;
+                padding-right:30px ;
+             }
+}
+@media screen and (max-width: 420px) {
+    .logo img{
+        width: 50px;
+        height: 50px;
+        padding-left: 10px;
+        } 
+        .anchor-tags a{
+           
+            border-radius: 10px;
+            padding: 5px 10px;
+           
+            }
+            .anchor-tags{
+                margin-top: 20px;
+                padding-right:10px ;
+             }
+}
+
   
