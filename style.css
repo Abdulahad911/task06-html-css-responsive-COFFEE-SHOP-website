@@ -1,76 +1,131 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
 body {
-    background-image:  linear-gradient(to bottom, rgba(255,255,255,0.395), rgba(255,255,255,0.395)),
-    url('./nav-bar/Coffee\ espresso\ template1.jpg');
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)),
+        url('./nav-bar/Coffee\ espresso\ template1.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-   color: rgb(75,38,20);
+    color: rgb(75, 38, 20);
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo img{
-width: 80px;
-height: 80px;
-padding-left: 60px;
-}
-.anchor-tags{
-   margin-top: 20px;
-   padding-right:60px ;
-}
-.anchor-tags a{
-text-align: center;
-text-decoration: none;
-border-radius: 10px;
-padding: 10px 20px;
-color: rgb(75,38,20);
-background-color: #ffffff6b;
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    padding-left: 60px;
 }
 
-.logo1 img{
-    mix-blend-mode:multiply;
-height: 100px;
+.anchor-tags {
+    margin-top: 20px;
+    padding-right: 60px;
 }
+
+.anchor-tags a {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: rgb(75, 38, 20);
+    background-color: #ffffff6b;
+}
+
+.anchor-tags a:hover {
+    color: #ffffff6b;
+    background-color: rgb(75, 38, 20);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box img {
+    mix-blend-mode: multiply;
+    height: 250px;
+    width: 300px;
+}
+
+.box {
+    margin: 50px 0 0 50px;
+}
+
+.box button {
+    background-color: transparent;
+    color: rgb(75, 38, 20);
+    border: 1px solid rgb(75, 38, 20);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 20%;
+}
+
+.box button:hover {
+    color: #ffffff6b;
+    background-color: rgb(75, 38, 20);
+}
+
+.box h1 {
+    font-size: 45px;
+}
+
+.box h1 em {
+    font-size: 60px;
+}
+
+.logo1 img {
+    margin: 100px 50px 0px 0px;
+    mix-blend-mode: multiply;
+    height: 350px;
+    width: 300px;
+}
+
 @media screen and (max-width: 1000px) {
-    .logo img{
+    .logo img {
         width: 70px;
         height: 70px;
         padding-left: 20px;
-        } 
-        .anchor-tags a{
-           
-            border-radius: 10px;
-            padding: 10px 10px;
-           
-            }
-            .anchor-tags{
-                margin-top: 20px;
-                padding-right:30px ;
-             }
+    }
+
+    .anchor-tags a {
+
+        border-radius: 10px;
+        padding: 10px 10px;
+
+    }
+
+    .anchor-tags {
+        margin-top: 20px;
+        padding-right: 30px;
+    }
 }
+
 @media screen and (max-width: 420px) {
-    .logo img{
+    .logo img {
         width: 50px;
         height: 50px;
         padding-left: 10px;
-        } 
-        .anchor-tags a{
-           
-            border-radius: 10px;
-            padding: 5px 10px;
-           
-            }
-            .anchor-tags{
-                margin-top: 20px;
-                padding-right:10px ;
-             }
-}
+    }
 
-  
+    .anchor-tags a {
+
+        border-radius: 10px;
+        padding: 5px 10px;
+
+    }
+
+    .anchor-tags {
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+}
