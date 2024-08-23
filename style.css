@@ -105,14 +105,17 @@ margin: 50px 0 0 50px;font-size: 38px;
     background-size: cover;
     background-position: top;
     background-size: cover;
-    /* background-attachment: fixed; */
+   
     height: 190px;
     width: 200px;
     border-radius: 7px;
     color: #fffdfd;
     margin-top: 50px;
+    transition: transform 0.5s ease-in 0.04s;
 }
-
+.image:hover{
+    transform: scale(1.1);
+}
 .image img {
     height: 90px;
     width: 100px;
@@ -185,7 +188,7 @@ text-align: center;
 }
 .box2:hover{
     transform: translateY(-10px) ;
-    box-shadow: 2px 1px 3px rgb(7, 7, 7);
+    box-shadow: 0px 0px 10px black;
 }
 .h1 h1{
     margin: 50px 0 0 50px;
@@ -204,6 +207,10 @@ text-align: center;
     box-shadow: 0px 0px 10px black;
     border-radius: 5px;
     margin-top: 50px;
+    transition: transform 0.4s ease-in 0.09s;
+}
+.boxes:hover{
+    transform: scale(1.1);
 }
 .boxes img{
     height: 150px;
