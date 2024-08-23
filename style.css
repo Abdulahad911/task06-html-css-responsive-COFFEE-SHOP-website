@@ -227,6 +227,33 @@ text-align: center;
     position: relative;
     top: -50px;
 }
+footer{
+    background-image: linear-gradient(to bottom, rgba(7, 7, 7, 0.395), rgba(10, 10, 10, 0.395)), url('./nav-bar/Coffee_Beans_Footer1.png');
+    /* height: 150px; */
+    background-size: cover;
+    color: rgb(254, 253, 252);
+   
+}
+
+.ftt{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 0 0 20px 0;
+    flex-wrap: wrap;
+}
+footer h4{
+    margin: 20px 20px 0 20px;
+    font-size: 14px;
+}
+footer p{
+    margin: 0 20px;
+    font-size: small;
+    text-align: center;
+}
+.ft img{
+    mix-blend-mode: multiply;
+}
 @media screen and (max-width: 1000px) {
     .logo img {
         width: 70px;
